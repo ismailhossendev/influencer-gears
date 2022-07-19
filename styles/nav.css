@@ -1,0 +1,41 @@
+.h-container{
+    margin: 0 10%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: flex-end;
+    font-size: 16px;
+}
+.logo{
+    font-size: 24px;
+}
+.nav-manu a{
+    margin-left: 20px;
+}
+.cart{
+    display: none;
+}
+
+/* ----------------
+    media quary
+---------------- */
+
+/* for mobile  */
+@media screen and (max-width:576px) {
+    .h-container{
+        margin: 2% 6%;
+    }
+    .nav{
+        height: 60px;
+        align-items: center;
+    }
+    .nav-manu{
+        display: none;
+    }
+    .cart{
+        display: inline;
+    }
+}
