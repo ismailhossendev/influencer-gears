@@ -42,8 +42,51 @@
 
 
 /* for tab or mediam */
-@media screen and (min-width:577px) and (max-width:768) {
-    body{
-        border-color: red;
-    }   
+@media screen and (min-width: 577px) and (max-width:768px){
+    .h-container{
+        margin: 1% 6%;
+    }
+    .nav{
+        height: 60px;
+        align-items: center;
+    }
+    .nav-manu{
+        display: none;
+    }
+    .cart{
+        display: inline;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+    .h-container{
+        margin: 1% 6%;
+    }
+    .nav{
+        height: 60px;
+        align-items: center;
+    }
+    .nav-manu{
+        display: none;
+    }
+    .cart{
+        display: inline;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 993px) and (max-width:1200px){
+    .h-container{
+        margin: 1% 6%;
+    }
+    .nav{
+        height: 60px;
+        align-items: center;
+    }
+    .nav-manu{
+        display: none;
+    }
+    .cart{
+        display: inline;
+        font-size: 30px;
+    }
 }

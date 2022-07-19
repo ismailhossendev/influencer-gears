@@ -177,6 +177,10 @@
 ---------------- */
 
 /* for mobile  */
+/* only iphone se  */
+@media screen and (max-width:378px) {
+    
+}
 @media screen and (max-width:576px) {
     
     .hero{
@@ -255,4 +259,288 @@
         margin-top: 10px;
         font-size: 14px;
     }
+}
+
+@media screen and (min-width: 577px) and (max-width:768px){
+    .hero{
+        flex-direction: column-reverse;
+        height: 80vh;
+        
+    }
+    .hero-left{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-left h1{
+        font-size: 28px;
+    }
+    .hero-left p{
+        width: 100%;
+    }
+    .hero-right{
+        width: 100%;
+        
+    }
+    .hero-right img{
+        width: 95%;
+        padding: 20px 10px 0 0;
+        
+    }
+    .shpp-logos{
+        margin: 10% 8%;
+    }
+    .bl-hr{
+        display: none;
+    }
+    .shop-logo{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .shop-logo img{
+        width: 80px;
+    }
+    .product-boxs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .popular-collections{
+        margin: 2% 1%;
+    }
+    .products-title{
+        text-align: center;
+    }
+    
+    .product-boxs{
+        justify-content: center;
+
+    }
+    .p-box{
+        margin: 1% 0;
+        width: 80%;
+        margin-left: 8%;
+        
+    }
+    .p-box img{
+        width: 100%;
+    }
+    .f-product{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0 .1%;
+        width: 100%;
+    }
+    .f-p-l-img{
+        width: 60%;
+        margin: 30px 0;
+
+    }
+    .f-p-r-text{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    
+    }
+    .f-p-r-text h1{
+        font-size: 24px;
+    }
+    .f-p-r-text p{
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+    .hero{
+        flex-direction: column-reverse;
+        height: 80vh;
+        
+    }
+    .hero-left{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-left h1{
+        font-size: 28px;
+    }
+    .hero-left p{
+        width: 100%;
+    }
+    .hero-right{
+        width: 100%;
+        
+    }
+    .hero-right img{
+        width: 95%;
+        padding: 20px 10px 0 0;
+        
+    }
+    .shpp-logos{
+        margin: 10% 8%;
+    }
+    .bl-hr{
+        display: none;
+    }
+    .shop-logo{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .shop-logo img{
+        width: 80px;
+    }
+    .product-boxs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .popular-collections{
+        margin: 2% 1%;
+    }
+    .products-title{
+        text-align: center;
+    }
+    
+    .product-boxs{
+        justify-content: center;
+
+    }
+    .p-box{
+        margin: 1% 0;
+        width: 80%;
+        margin-left: 8%;
+        
+    }
+    .p-box img{
+        width: 100%;
+    }
+    .f-product{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0 .1%;
+        width: 100%;
+    }
+    .f-p-l-img{
+        width: 60%;
+        margin: 30px 0;
+
+    }
+    .f-p-r-text{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    
+    }
+    .f-p-r-text h1{
+        font-size: 24px;
+    }
+    .f-p-r-text p{
+        width: 90%;
+        padding-left: 40px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 993px) and (max-width:1200px){
+    .hero{
+        flex-direction: column-reverse;
+        height: 80vh;
+        
+    }
+    .hero-left{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-left h1{
+        font-size: 28px;
+    }
+    .hero-left p{
+        width: 100%;
+    }
+    .hero-right{
+        width: 100%;
+        
+    }
+    .hero-right img{
+        width: 95%;
+        padding: 20px 10px 0 0;
+        
+    }
+    .shpp-logos{
+        margin: 10% 8%;
+    }
+    .bl-hr{
+        display: none;
+    }
+    .shop-logo{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .shop-logo img{
+        width: 80px;
+    }
+    .product-boxs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .popular-collections{
+        margin: 2% 1%;
+    }
+    .products-title{
+        text-align: center;
+    }
+    
+    .product-boxs{
+        justify-content: center;
+
+    }
+    .p-box{
+        margin: 1% 0;
+        width: 80%;
+        margin-left: 8%;
+        
+    }
+    .p-box img{
+        width: 100%;
+    }
+    .f-product{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0 .1%;
+        width: 100%;
+    }
+    .f-p-l-img{
+        width: 60%;
+        margin: 30px 0;
+
+    }
+    .f-p-r-text{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    
+    }
+    .f-p-r-text h1{
+        font-size: 24px;
+    }
+    .f-p-r-text p{
+        width: 50%;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+/* only iphone se  */
+@media screen and (max-width:378px) {
+    .hero{
+        height: 80vh;
+    }   
 }
