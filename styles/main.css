@@ -313,7 +313,6 @@
         width: 80px;
     }
     .product-boxs{
-        display: grid;
         grid-template-columns: repeat(2,1fr);
         
     }
@@ -406,7 +405,6 @@
         width: 80px;
     }
     .product-boxs{
-        display: grid;
         grid-template-columns: repeat(2,1fr);
         
     }
