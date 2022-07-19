@@ -39,3 +39,11 @@
         display: inline;
     }
 }
+
+
+/* for tab or mediam */
+@media screen and (min-width:577px) and (max-width:768) {
+    body{
+        border-color: red;
+    }   
+}
