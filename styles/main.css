@@ -213,10 +213,10 @@
         align-items: center;
     }
     .shop-logo img{
-        width: 65px;
+        width: 80px;
     }
     .popular-collections{
-        margin: 2% 1%;
+        margin: 2% 0%;
     }
     .products-title{
         text-align: center;
