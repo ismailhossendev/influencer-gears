@@ -38,6 +38,9 @@
 .hero a i{
     margin-left: 20px;
 }
+.hero-right{
+    height: 50%;
+}
 .hero-right img{
     background: url(../images/camera-bg.png);
     background-repeat: no-repeat;
@@ -373,7 +376,8 @@
         width: 100%;
     }
     .hero-right{
-        width: 100%;
+        width: 60%;
+        height: 60%;
         
     }
     .hero-right img{
@@ -466,7 +470,8 @@
         width: 100%;
     }
     .hero-right{
-        width: 100%;
+        width: 50%;
+        height: 50%;
         
     }
     .hero-right img{
