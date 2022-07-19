@@ -106,7 +106,12 @@
 /* ---------------------
     f-product
  ------------------*/
- 
+ .f-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20%;
+}
 .f-p-l-img{
     width: 40%;
 }
@@ -135,6 +140,38 @@
     margin-left: 10px;
 }
 
+/*--------------
+     footer 
+------------- */
+.footers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background: #0A0826;
+    color: white;
+}
+.f-logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+.footers{
+    font-size: 17px;
+}
+.footers p{
+    margin-bottom: 10px;
+}
+.f-s-icon a{
+    border-radius: 120px;
+    background: #ffffff1a;
+    padding: 5px 8px;
+    font-size: 20px;
+    margin: 5px;
+}
+.f-s-icon i{
+    color: #FFFFFF;
+}
 /* ----------------
     media quary
 ---------------- */
@@ -197,6 +234,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin: 0 1%;
     }
     .f-p-l-img{
         width: 90%;
@@ -208,8 +246,12 @@
         margin-top: 10px;
     
     }
+    .f-p-r-text h1{
+        font-size: 24px;
+    }
     .f-p-r-text p{
         width: 100%;
         margin-top: 10px;
+        font-size: 14px;
     }
 }
